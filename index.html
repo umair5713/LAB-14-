@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nova Studio — Creative Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-logo">Nova<span>Studio</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-cta">Hire Us</button>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-bg-circle c1"></div>
+    <div class="hero-bg-circle c2"></div>
+    <div class="hero-content">
+      <p class="hero-tag">✦ Design &amp; Development Studio</p>
+      <h1 class="hero-title">We Build<br/><em>Experiences</em><br/>That Last.</h1>
+      <p class="hero-sub">From concept to launch — branding, web design, and digital products crafted with intention and precision.</p>
+      <div class="hero-btns">
+        <a href="#portfolio" class="btn-primary">View Our Work</a>
+        <a href="#contact" class="btn-ghost">Let's Talk →</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="floating-card card-a">
+        <span class="card-icon">🎨</span>
+        <p>Brand Identity</p>
+      </div>
+      <div class="floating-card card-b">
+        <span class="card-icon">💻</span>
+        <p>Web Development</p>
+      </div>
+      <div class="floating-card card-c">
+        <span class="card-icon">📱</span>
+        <p>UI / UX Design</p>
+      </div>
+      <div class="hero-blob"></div>
+    </div>
+  </header>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="stat"><h2>120+</h2><p>Projects Delivered</p></div>
+    <div class="stat"><h2>8 yrs</h2><p>Industry Experience</p></div>
+    <div class="stat"><h2>40+</h2><p>Happy Clients</p></div>
+    <div class="stat"><h2>98%</h2><p>Satisfaction Rate</p></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-text">
+      <p class="section-label">About Us</p>
+      <h2>A studio obsessed with beautiful, functional design.</h2>
+      <p>We're a small team of designers and developers who believe great digital experiences come from the intersection of craft and strategy. Every pixel, every line of code — intentional.</p>
+      <p>Founded in 2017, Nova Studio has worked with startups, agencies, and Fortune 500 companies across the globe.</p>
+    </div>
+    <div class="about-image">
+      <div class="about-img-box">
+        <div class="img-tag">Est. 2017</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <p class="section-label center">What We Do</p>
+    <h2 class="section-title center">Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="svc-icon">🎯</div>
+        <h3>Brand Strategy</h3>
+        <p>We define your brand's voice, positioning, and visual identity from the ground up.</p>
+      </div>
+      <div class="service-card highlight">
+        <div class="svc-icon">🌐</div>
+        <h3>Web Design</h3>
+        <p>Pixel-perfect websites built with clean HTML/CSS and modern development practices.</p>
+      </div>
+      <div class="service-card">
+        <div class="svc-icon">📐</div>
+        <h3>UI/UX Design</h3>
+        <p>User-first interfaces that are intuitive, accessible, and delightful to use.</p>
+      </div>
+      <div class="service-card">
+        <div class="svc-icon">🚀</div>
+        <h3>Digital Marketing</h3>
+        <p>SEO, content strategy, and campaigns that grow your audience and conversions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <p class="section-label center">Our Work</p>
+    <h2 class="section-title center">Selected Projects</h2>
+    <div class="portfolio-grid">
+      <div class="port-card" style="--clr:#e8d5c4">
+        <div class="port-img"></div>
+        <div class="port-info">
+          <h3>Bloom Bakery</h3>
+          <p>Brand Identity · Web Design</p>
+        </div>
+      </div>
+      <div class="port-card" style="--clr:#c4d4e8">
+        <div class="port-img"></div>
+        <div class="port-info">
+          <h3>Fintrack App</h3>
+          <p>UI/UX · Development</p>
+        </div>
+      </div>
+      <div class="port-card" style="--clr:#d4e8c4">
+        <div class="port-img"></div>
+        <div class="port-info">
+          <h3>Verdant Co.</h3>
+          <p>Brand Strategy · Website</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <p class="section-label center light">Get In Touch</p>
+      <h2 class="center">Ready to start your project?</h2>
+      <p class="contact-sub center">Drop us a message and we'll get back to you within 24 hours.</p>
+      <div class="contact-form">
+        <div class="form-row">
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <input type="text" placeholder="Subject" />
+        <textarea placeholder="Tell us about your project..." rows="5"></textarea>
+        <button class="btn-primary full">Send Message ✦</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="nav-logo">Nova<span>Studio</span></div>
+        <p>Building digital experiences with purpose and precision.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>hello@novastudio.com</p>
+        <p>+1 (555) 012-3456</p>
+        <p>New York, NY 10001</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Nova Studio. All rights reserved.</p>
+      <p>Built with ♥ using HTML &amp; CSS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
